@@ -4,3 +4,7 @@ public/
 resources/
 .hugo_build.lock
 hugo_stats.json
+
+backup/
+
+content/publication/
