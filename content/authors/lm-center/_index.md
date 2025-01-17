@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 媒体计算研究组
+title: 大模型研究协同中心
 
 # Name pronunciation (optional)
-name_pronunciation: Media Computing Group
+name_pronunciation: 
 
 # Full name (for SEO)
 # first_name: Shiung Wu
@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: <a href='https://www.nju.edu.cn'>Nanjing University</a>
+role: <a href='https://www.nju.edu.cn'>南京大学</a>
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Department of Computer Science and Technology
+  - name: 计算机科学与技术学院
     url: https://cs.nju.edu.cn
 
 # Social network links
@@ -46,15 +46,17 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/
 
-interests:
-  - TODO
+research_focus:
+  - 大模型系统与平台
+  - 大语言模型
+  - 视觉/多模态大模型
   # - Artificial Intelligence
   # - Computational Linguistics
   # - Information Retrieval
 
-education:
-  - area: TODO
-    institution: TODO
+# education:
+#   - area: TODO
+#     institution: TODO
   # - area: PhD Artificial Intelligence
   #   institution: Stanford University
   #   date_start: 2016-01-01
@@ -184,10 +186,6 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## Introduction
+## 简介
 
-<!-- Human can integrate auditory sense, visual sense, and tactile sense in environment perception, and improve the abilities of understand and reforming environment by continuous learning and practice. Currently, computer has the primary auditory sense and visual sense, and its storage and processing abilities are constantly improved. However, computer is still inferior to human in environment perception, and the corresponding processing technology requires long-term development. Multimedia computing group (MCG) aims to study environment perception technology and use it in real applications. We hope to improve the perception ability and leverage the cognitive level of computer, and assist human to understand and reform the world.
-
-Environment perception research requires the integration of various techniques, including multimedia content classification and processing, machine learning, modeling and visualization, intelligent interaction and big data processing. Currently, our research mainly involves: stereo visual media processing, object retrieval, scene modeling and processing, vision navigation, visual media retargeting, big data parallel processing, and large scale data visualization. -->
-
-MCG is led by Professor Gangshan Wu in Department of Computer Science and Technology, and its members include Professor Limin wang, Associate Professor Jie Tang, Assistant Researcher Jie Liu and several graduate students. MCG members have investigated dozens of key projects, published over one hundred research papers on international and domestic journals and conferences, and won several technology awards.
+南京大学计算机学院大模型研究中心开展大模型系统架构、学习算法和领域应用的创新研究，为通用人工智能（AGI）和超级智能（Super Intelligence）提供核心技术。主要研究方向包括面向大模型的芯片、网络、计算等系统架构、面向大模型的高效能机器学习算法、大模型知识增强学习算法以及视觉大模型、语言大模型、多模态大模型、科学大模型、具身大模型和智能体系统。
