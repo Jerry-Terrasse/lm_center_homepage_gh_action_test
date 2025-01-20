@@ -35,7 +35,8 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "MCG Group"
+      text: "大模型研究协同中心"
+      filename: "icons/nju-emblem-cs.png"
 
 # Site footer
 footer:
