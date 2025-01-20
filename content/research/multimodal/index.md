@@ -2,7 +2,7 @@
 title: 视觉与多模态大模型
 date: 2023-10-26
 author: test
-# type: docs
+type: docs
 ---
 
 ## 视觉多模态大模型：开启人工智能感知新时代
