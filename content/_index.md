@@ -26,6 +26,15 @@ sections:
           size: cover
           position: center
           parallax: false
+  - block: collection
+    content:
+      title: 研究方向
+      filters:
+        folders:
+          - research
+    design:
+      view: article-grid
+      columns: 3
   - block: markdown
     content:
       title: '📚 Our Vision'
@@ -39,7 +48,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: 精选出版物
       filters:
         folders:
           - publication
@@ -60,7 +69,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: News
+      title: 新闻
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

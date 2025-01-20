@@ -46,10 +46,6 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/
 
-research_focus:
-  - 大模型系统与平台
-  - 大语言模型
-  - 视觉/多模态大模型
   # - Artificial Intelligence
   # - Computational Linguistics
   # - Information Retrieval
