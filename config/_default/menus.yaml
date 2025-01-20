@@ -1,22 +1,22 @@
 main:
-  # - name: Bio
-  #   url: /
-  #   weight: 10
+  - name: 主页
+    url: /
+    weight: 10
   - name: 研究方向
     url: /research
-    weight: 10
+    weight: 11
   - name: 新闻
     url: /#news
     weight: 12
-  - name: 活动
-    url: /event
-    weight: 13
-  - name: 著作
+  # - name: 活动
+  #   url: /event
+  #   weight: 13
+  - name: 出版物
     url: publication/
     weight: 20
-  - name: 项目
-    url: projects/
-    weight: 30
-  - name: 教学
-    url: teaching/
-    weight: 40
+  # - name: 项目
+  #   url: projects/
+  #   weight: 30
+  # - name: 教学
+  #   url: teaching/
+  #   weight: 40
