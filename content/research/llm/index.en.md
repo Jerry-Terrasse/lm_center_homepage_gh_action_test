@@ -12,6 +12,8 @@ sections:
       filters:
         folders:
           - authors
+        tag: llm
+      count: 0
     design:
       view: people-grid
       columns: 5

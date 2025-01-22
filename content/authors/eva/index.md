@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Eva
+tags: [llm]
 
 # Name pronunciation (optional)
 name_pronunciation: 

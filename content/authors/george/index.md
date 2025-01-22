@@ -1,6 +1,7 @@
 ---
 # Display name
 title: George
+tags: [llm]
 
 # Name pronunciation (optional)
 name_pronunciation: 

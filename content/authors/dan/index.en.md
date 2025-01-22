@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: <a href='https://www.nju.edu.cn'>南京大学</a>
+role: <a href='https://www.nju.edu.cn'>Nanjing University</a>
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 计算机科学与技术学院
+  - name: Department of Computer Science and Technology
     url: https://cs.nju.edu.cn
 
 # Social network links
