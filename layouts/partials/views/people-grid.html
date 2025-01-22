@@ -1,14 +1,8 @@
 {{ $item := .item }}
 
-{{ $author := $item.Params.name }}
-{{ $person_page_path := (printf "/authors/%s" $author) }}
-{{ $person_page := site.GetPage $person_page_path }}
-{{ if not $person_page }}
-  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://docs.hugoblox.com/page-builder/#about " $person_page_path }}
-{{end}}
-{{ $person := $person_page.Params }}
+{{ $info := $item.Params }}
 
-{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $avatar := ($item.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 {{ $link := $item.Params.external_link | default $item.RelPermalink }}
@@ -19,31 +13,31 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-{{ printf "%#v" $link }}
-<div id="profile" class="flex justify-center items-center flex-col">
+<!-- {{ printf "%#v" $link }} -->
+<div class="resume-biography flex justify-center items-center flex-col">
   <div class="avatar-wrapper mt-5">
     {{ $avatar_image := $avatar.Fill "150x150 Center" }}
-    <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
+    <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="{{ $avatar_image.RelPermalink }}" alt="{{$item.Title}}"
           width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}">
-    {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
+    {{with $info.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
   </div>
 
-  <div class="portrait-title dark:text-white">
+  <div class="portrait-title dark:text-white" style="text-align: center;">
 
-    <div class="text-3xl font-bold mb-2 mt-6">
-      {{- if $person.name_pronunciation -}}
+    <div class="text-4xl font-bold mb-2 mt-6">
+      {{- if $info.name_pronunciation -}}
         <ruby>
-          <rb>{{ $person_page.Title }}</rb>
-          <rt>{{ $person.name_pronunciation }}</rt>
+          <rb>{{ $item.Title }}</rb>
+          <rt>{{ $info.name_pronunciation }}</rt>
         </ruby>
       {{- else -}}
-        {{- $person_page.Title -}}
+        {{- $item.Title -}}
       {{- end -}}
     </div>
 
-    {{ with $person.role }}<h3 class="font-semibold mb-1">{{ . | markdownify | emojify }}</h3>{{ end }}
+    {{ with $info.role }}<h3 class="font-semibold mb-1">{{ . | markdownify | emojify }}</h3>{{ end }}
 
-    {{ range $person.organizations }}
+    {{ range $info.organizations }}
     <div class="mb-2">
       {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
       <div>{{ .name }}</div>
@@ -53,7 +47,7 @@
   </div>
 
   <ul class="network-icon dark:text-zinc-100">
-    {{ range $person.profiles }}
+    {{ range $info.profiles }}
     {{ $pack := or .icon_pack "fas" }}
     {{ $pack_prefix := $pack }}
     {{ if in (slice "fab" "fas" "far" "fal") $pack }}
