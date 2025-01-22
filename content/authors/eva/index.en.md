@@ -20,6 +20,10 @@ superuser: true
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
+# If the homepage is not available, leave the field below empty
+#  otherwise, provide url like '/authors/alice/' or 'https://www.example.com'
+homepage: https://baidu.com
+
 # Role/position/tagline
 role: <a href='https://www.nju.edu.cn'>Nanjing University</a>
 

@@ -5,11 +5,10 @@
 {{ $avatar := ($item.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
-{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $link := $info.homepage }}
 <!-- $link is not implemented yet -->
 {{ $target := "" }}
-{{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
+{{ if $link }}
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
@@ -25,13 +24,18 @@
   <div class="portrait-title dark:text-white" style="text-align: center;">
 
     <div class="text-4xl font-bold mb-2 mt-6">
+      {{- $title_attr := ("" | safeHTMLAttr) -}}
+      {{- if $info.homepage -}}
+        {{- $title_attr = ((printf "href=\"%s\" %s" $link $target) | safeHTMLAttr) -}}
+      {{- end -}}
+
       {{- if $info.name_pronunciation -}}
         <ruby>
-          <rb>{{ $item.Title }}</rb>
+          <rb><a {{ $title_attr }}>{{ $info.Title }}</a></rb>
           <rt>{{ $info.name_pronunciation }}</rt>
         </ruby>
       {{- else -}}
-        {{- $item.Title -}}
+        <a {{ $title_attr }}>{{ $info.Title }}</a>
       {{- end -}}
     </div>
 

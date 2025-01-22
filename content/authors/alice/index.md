@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice
+title: 爱丽丝
 tags: [llm]
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: "Alice"
 
 # Full name (for SEO)
 # first_name: Shiung Wu
@@ -19,6 +19,10 @@ superuser: true
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+# If the homepage is not available, leave the field below empty
+#  otherwise, provide url like '/authors/alice/' or 'https://www.example.com'
+homepage: /author/alice/
 
 # Role/position/tagline
 role: <a href='https://www.nju.edu.cn'>南京大学</a>

@@ -16,7 +16,7 @@ sections:
       count: 0
     design:
       view: people-grid
-      columns: 5
+      columns: 4
 ---
 
 ## 大语言模型：人工智能语言理解与生成的新纪元

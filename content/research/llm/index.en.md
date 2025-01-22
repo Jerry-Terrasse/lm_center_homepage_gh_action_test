@@ -16,7 +16,7 @@ sections:
       count: 0
     design:
       view: people-grid
-      columns: 5
+      columns: 4
 ---
 
 ## Large Language Models: A New Era of Artificial Intelligence in Language Understanding and Generation
