@@ -28,7 +28,7 @@ sections:
           parallax: false
   - block: collection
     content:
-      title: 研究方向
+      title: 研究小组
       filters:
         folders:
           - research
