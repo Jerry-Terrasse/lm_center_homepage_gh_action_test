@@ -9,23 +9,36 @@ design:
   spacing: "2rem"
 
 sections:
-  - block: resume-biography-3
+  - block: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: lm-center
-      text: ""
+      title: 模型巨匠，智启未来！
+      primary_text: 南京大学计算机学院大模型研究中心
+      secondary_text: 研究中心开展大模型系统架构、学习算法和领域应用的创新研究，为通用人工智能（AGI）和超级智能（Super Intelligence）提供核心技术。主要研究方向包括面向大模型的芯片、网络、计算等系统架构、面向大模型的高效能机器学习算法、大模型知识增强学习算法以及视觉大模型、语言大模型、多模态大模型、科学大模型、具身大模型和智能体系统。
+      primary_action:
+        text: 加入我们
+        url: /research
+        icon: user-group
+      secondary_action:
+        text: 研究中心文章
+        url: /publication
+      announcement:
+        text: "研究中心的 5 篇文章被 CVPR 2025 接收"
+        link:
+          text: "更多"
+          url: "/#news"
     design:
-      css_class: dark
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark"
       background:
-        color: black
+        color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: hero-bg.jpg
           filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+            brightness: 0.5
   - block: collection
     content:
       title: 研究小组

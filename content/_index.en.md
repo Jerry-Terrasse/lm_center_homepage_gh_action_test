@@ -9,23 +9,36 @@ design:
   spacing: "2rem"
 
 sections:
-  - block: resume-biography-3
+  - block: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: lm-center
-      text: ""
+      title: Igniting Minds to Shape New Worlds!
+      primary_text: Large Model Research Center, School of Computer Science, Nanjing University
+      secondary_text: The Research Center conducts innovative studies on large model system architectures, learning algorithms, and domain applications, delivering core technologies for Artificial General Intelligence (AGI) and Super Intelligence. Key research areas include chip, network, and computational system architectures for large models, efficient machine learning algorithms, knowledge-enhanced learning algorithms, as well as vision, language, multimodal, scientific, embodied large models, and intelligent agent systems.
+      primary_action:
+        text: Join Us
+        url: /research
+        icon: user-group
+      secondary_action:
+        text: Publications
+        url: /publication
+      announcement:
+        text: "5 papers are accepted by CVPR 2025."
+        link:
+          text: "More"
+          url: "/#news"
     design:
-      css_class: dark
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark"
       background:
-        color: black
+        color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: hero-bg.jpg
           filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+            brightness: 0.5
   # - block: markdown
   #   content:
   #     title: '📚 Our Vision'
