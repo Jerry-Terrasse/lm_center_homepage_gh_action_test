@@ -26,16 +26,16 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 Our Vision'
-      subtitle: ''
-      text: |-
-        Human can integrate auditory sense, visual sense, and tactile sense in environment perception, and improve the abilities of understand and reforming environment by continuous learning and practice. Currently, computer has the primary auditory sense and visual sense, and its storage and processing abilities are constantly improved. However, computer is still inferior to human in environment perception, and the corresponding processing technology requires long-term development. Multimedia computing group (MCG) aims to study environment perception technology and use it in real applications. We hope to improve the perception ability and leverage the cognitive level of computer, and assist human to understand and reform the world.
+  # - block: markdown
+  #   content:
+  #     title: '📚 Our Vision'
+  #     subtitle: ''
+  #     text: |-
+  #       Human can integrate auditory sense, visual sense, and tactile sense in environment perception, and improve the abilities of understand and reforming environment by continuous learning and practice. Currently, computer has the primary auditory sense and visual sense, and its storage and processing abilities are constantly improved. However, computer is still inferior to human in environment perception, and the corresponding processing technology requires long-term development. Multimedia computing group (MCG) aims to study environment perception technology and use it in real applications. We hope to improve the perception ability and leverage the cognitive level of computer, and assist human to understand and reform the world.
 
-      # Environment perception research requires the integration of various techniques, including multimedia content classification and processing, machine learning, modeling and visualization, intelligent interaction and big data processing. Currently, our research mainly involves: stereo visual media processing, object retrieval, scene modeling and processing, vision navigation, visual media retargeting, big data parallel processing, and large scale data visualization.
-    design:
-      columns: '1'
+  #     # Environment perception research requires the integration of various techniques, including multimedia content classification and processing, machine learning, modeling and visualization, intelligent interaction and big data processing. Currently, our research mainly involves: stereo visual media processing, object retrieval, scene modeling and processing, vision navigation, visual media retargeting, big data parallel processing, and large scale data visualization.
+  #   design:
+  #     columns: '1'
   - block: collection
     id: papers
     content:
