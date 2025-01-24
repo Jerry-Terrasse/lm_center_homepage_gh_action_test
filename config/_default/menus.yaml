@@ -2,7 +2,7 @@ main:
   - name: 主页
     url: /
     weight: 10
-  - name: 研究方向
+  - name: 研究小组
     url: /research
     weight: 11
   - name: 新闻
