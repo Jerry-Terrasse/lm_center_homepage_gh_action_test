@@ -1,0 +1,11 @@
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var element = document.getElementById('typed');
+    var text = element ? element.innerText : '';
+    element.innerHTML = '';
+    var typed = new Typed('#typed', {
+        strings: [text],
+        typeSpeed: 100,
+        showCursor: false,
+    });
+</script>
