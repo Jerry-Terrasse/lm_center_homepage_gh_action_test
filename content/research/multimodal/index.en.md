@@ -30,19 +30,19 @@ sections:
     content:
       title: Research Overview
       text: |
-        ### Representative Achievement 1: Shusheng Multimodal Large Model Series - InternVL
+        #### Representative Achievement 1: Shusheng Multimodal Large Model Series - InternVL
 
-        ### Representative Achievement 2: Video Fundamental Representation Model - VideoMAE Series
+        #### Representative Achievement 2: Video Fundamental Representation Model - VideoMAE Series
         ![VideoMAE](/research/multimodal/videomae.png)
         This work proposed the video masked autoencoder VideoMAE v1 & v2, successfully training the first video Transformer model with one billion parameters and breaking through the performance bottleneck of video self-supervised representation learning. The VideoMAE series has been cited over 1500 times and has become the benchmark method in the field of video self-supervised learning. It has been further developed and extended by Oxford University, Microsoft, Google, and Meta, and became the first video Transformer model included in the open-source community Hugging Face, with over 3.2 million downloads worldwide, ranking first on the Hugging Face video recognition model leaderboard.
 
-        ### Representative Achievement 3: Video Multimodal Large Model - VideoChat Series
+        #### Representative Achievement 3: Video Multimodal Large Model - VideoChat Series
 
         ![VideoChat](/research/multimodal/videochat.png)
         
         This work introduced the world’s first video-centric multimodal dialogue large model, VideoChat, which has established a general video understanding capability driven by interactive dialogue, achieving leading performance on multiple multimodal video understanding datasets. The underlying video technology has been applied in the development of the Kuaishou Keling large model, earning over 3000 stars on GitHub and significant academic impact. Recently, the VideoChat-Online and VideoChat-Flash versions have been launched, further enhancing VideoChat’s overall performance in terms of interactive modalities and efficient long-term modeling.
 
-        ### Representative Achievement 4: Shusheng Video Large Model - InternVideo Series
+        #### Representative Achievement 4: Shusheng Video Large Model - InternVideo Series
 
         ![InternVideo](/research/multimodal/internvideo.png)
         
