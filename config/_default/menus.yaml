@@ -2,11 +2,11 @@ main:
   - name: 主页
     url: /
     weight: 10
-  - name: 研究小组
-    url: /research
-    weight: 11
   - name: 新闻
     url: /#news
+    weight: 11
+  - name: 研究小组
+    url: /research
     weight: 12
   # - name: 活动
   #   url: /event
