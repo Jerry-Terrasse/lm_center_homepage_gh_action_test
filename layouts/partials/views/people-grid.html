@@ -23,7 +23,7 @@
 
   <div class="portrait-title dark:text-white" style="text-align: center;">
 
-    <div class="text-4xl font-bold mb-2 mt-6">
+    <div class="text-2xl font-bold mb-2 mt-6">
       {{- $title_attr := ("" | safeHTMLAttr) -}}
       {{- if $info.homepage -}}
         {{- $title_attr = ((printf "href=\"%s\" %s" $link $target) | safeHTMLAttr) -}}

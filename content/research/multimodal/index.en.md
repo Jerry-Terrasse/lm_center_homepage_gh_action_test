@@ -13,7 +13,7 @@ sections:
     content:
       title: 
       text: |
-        # Multimodal Large Model Research Group
+        ## Multimodal Large Model Research Group
   - block: collection
     id: members
     content:

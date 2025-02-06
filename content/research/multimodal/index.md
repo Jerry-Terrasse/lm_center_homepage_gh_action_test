@@ -13,7 +13,7 @@ sections:
     content:
       title: 
       text: |
-        # 多模态大模型研究小组
+        ## 多模态大模型研究小组
   - block: collection
     id: members
     content:
