@@ -1,6 +1,6 @@
 ---
 title: 视觉与多模态大模型研究小组
-date: 2025-01-24
+date: 1020-01-01 # to control the display order
 # author: test
 type: landing
 
