@@ -1,5 +1,5 @@
 ---
-title: Large Model Systems and Platforms
+title: Large Model Systems and Platforms Research Group
 date: 1010-01-01 # to control the display order
 author: test
 type: docs

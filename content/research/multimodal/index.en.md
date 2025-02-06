@@ -1,5 +1,5 @@
 ---
-title: Vision-Language Multimodal Large Models
+title: Multimodal Large Model Research Group
 date: 1020-01-01 # to control the display order
 # author: test
 type: landing
@@ -11,7 +11,7 @@ design:
 sections:
   - block: markdown
     content:
-      title: Vision-Language Multimodal Large Models
+      title: Multimodal Large Model Research Group
   - block: collection
     id: members
     content:

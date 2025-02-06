@@ -1,5 +1,5 @@
 ---
-title: 大模型系统与平台
+title: 大模型系统与平台研究小组
 date: 1010-01-01 # to control the display order
 author: test
 type: docs

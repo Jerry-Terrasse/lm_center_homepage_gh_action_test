@@ -1,5 +1,5 @@
 ---
-title: 视觉与多模态大模型研究小组
+title: 多模态大模型研究小组
 date: 1020-01-01 # to control the display order
 # author: test
 type: landing
@@ -11,7 +11,7 @@ design:
 sections:
   - block: markdown
     content:
-      title: 视觉与大模型研究小组
+      title: 多模态大模型研究小组
   - block: collection
     id: members
     content:

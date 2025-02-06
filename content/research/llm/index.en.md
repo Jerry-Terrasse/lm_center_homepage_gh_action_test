@@ -1,5 +1,5 @@
 ---
-title: Large Language Models Research Group
+title: Large Language Model Research Group
 date: 1030-01-01 # to control the display order
 # author: test
 type: landing
