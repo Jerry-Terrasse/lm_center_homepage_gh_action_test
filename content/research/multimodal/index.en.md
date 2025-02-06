@@ -11,7 +11,9 @@ design:
 sections:
   - block: markdown
     content:
-      title: Multimodal Large Model Research Group
+      title: 
+      text: |
+        # Multimodal Large Model Research Group
   - block: collection
     id: members
     content:
@@ -28,75 +30,21 @@ sections:
     content:
       title: Research Overview
       text: |
-        In recent years, a powerful new class of models has emerged in the field of artificial intelligence—**vision-language multimodal large models**. These models break through the limitations of traditional single-modal models by simultaneously understanding and processing information from multiple modalities such as text, images, and videos, taking a significant step toward more general artificial intelligence.
+        ### Representative Achievement 1: Shusheng Multimodal Large Model Series - InternVL
 
-        ### Core Technological Breakthroughs
+        ### Representative Achievement 2: Video Fundamental Representation Model - VideoMAE Series
+        ![VideoMAE](/research/multimodal/videomae.png)
+        This work proposed the video masked autoencoder VideoMAE v1 & v2, successfully training the first video Transformer model with one billion parameters and breaking through the performance bottleneck of video self-supervised representation learning. The VideoMAE series has been cited over 1500 times and has become the benchmark method in the field of video self-supervised learning. It has been further developed and extended by Oxford University, Microsoft, Google, and Meta, and became the first video Transformer model included in the open-source community Hugging Face, with over 3.2 million downloads worldwide, ranking first on the Hugging Face video recognition model leaderboard.
 
-        The rise of vision-language multimodal large models is attributed to breakthroughs in the following key technologies:
+        ### Representative Achievement 3: Video Multimodal Large Model - VideoChat Series
 
-        - **Deep Learning**: Provides powerful feature extraction and pattern recognition capabilities.
-        - **Large-Scale Pre-training**: Trains models on massive datasets to learn universal knowledge representations.
-        - **Cross-Modal Alignment**: Maps information from different modalities into the same semantic space, enabling cross-modal understanding.
+        ![VideoChat](/research/multimodal/videochat.png)
+        
+        This work introduced the world’s first video-centric multimodal dialogue large model, VideoChat, which has established a general video understanding capability driven by interactive dialogue, achieving leading performance on multiple multimodal video understanding datasets. The underlying video technology has been applied in the development of the Kuaishou Keling large model, earning over 3000 stars on GitHub and significant academic impact. Recently, the VideoChat-Online and VideoChat-Flash versions have been launched, further enhancing VideoChat’s overall performance in terms of interactive modalities and efficient long-term modeling.
 
-        For example:
-        - The **CLIP** model maps images and text into the same semantic space through contrastive learning, achieving cross-modal retrieval and understanding.
-        - Models like **DALL-E 2** and **Stable Diffusion** can generate high-quality images from text descriptions, demonstrating powerful cross-modal generation capabilities.
+        ### Representative Achievement 4: Shusheng Video Large Model - InternVideo Series
 
-        ### Broad Application Scenarios
-
-        Vision-language multimodal large models have a wide range of applications, covering fields such as computer vision, natural language processing, and human-computer interaction:
-
-        - **Image Understanding**: Image classification, object detection, image captioning, etc.
-        - **Video Analysis**: Video content understanding, video summarization, etc.
-        - **Human-Computer Interaction**: Developing smarter virtual assistants, chatbots, etc.
-
-        ### Future Development Trends
-
-        Despite remarkable progress, vision-language multimodal large models still face several challenges:
-
-        - **Model Interpretability**: How to make the decision-making process of models more transparent and understandable.
-        - **Data Bias**: How to prevent models from learning biases present in the data.
-        - **Computational Resource Consumption**: How to reduce the computational costs of model training and inference.
-
-        In the future, with continuous technological advancements and expanding application scenarios, vision-language multimodal large models will evolve toward being more general, intelligent, and efficient, bringing further breakthroughs and innovations to the field of artificial intelligence.
-
-        In summary, the emergence of vision-language multimodal large models marks a significant step in the transition of artificial intelligence from single-modal perception to multimodal cognition, laying a solid foundation for more general artificial intelligence. As technology continues to advance and application scenarios expand, these models will play an increasingly important role in various fields, bringing greater convenience and value to human society.
+        ![InternVideo](/research/multimodal/internvideo.png)
+        
+        This work introduced the world’s first general video understanding large model, InternVideo. In 2022, the video basic representation model version, InternVideo 1.0, was released, achieving world-leading performance in key tasks such as video basic perception, video spatiotemporal parsing, and video action recognition. In 2024, the video multimodal understanding model version, InternVideo 2.0, was released, achieving leading performance on over 60 video understanding tasks, including recognition retrieval, open-domain Q&A, high-level reasoning, and more. In 2025, the deep spatiotemporal understanding version, InternVideo 2.5, was released, significantly enhancing both the span and granularity of video understanding, with its "memory" capacity increased sixfold compared to the previous generation.
 ---
-
-## Vision-Language Multimodal Large Models: Ushering in a New Era of Artificial Intelligence Perception
-
-In recent years, a powerful new class of models has emerged in the field of artificial intelligence—**vision-language multimodal large models**. These models break through the limitations of traditional single-modal models by simultaneously understanding and processing information from multiple modalities such as text, images, and videos, taking a significant step toward more general artificial intelligence.
-
-### Core Technological Breakthroughs
-
-The rise of vision-language multimodal large models is attributed to breakthroughs in the following key technologies:
-
-- **Deep Learning**: Provides powerful feature extraction and pattern recognition capabilities.
-- **Large-Scale Pre-training**: Trains models on massive datasets to learn universal knowledge representations.
-- **Cross-Modal Alignment**: Maps information from different modalities into the same semantic space, enabling cross-modal understanding.
-
-For example:
-- The **CLIP** model maps images and text into the same semantic space through contrastive learning, achieving cross-modal retrieval and understanding.
-- Models like **DALL-E 2** and **Stable Diffusion** can generate high-quality images from text descriptions, demonstrating powerful cross-modal generation capabilities.
-
-### Broad Application Scenarios
-
-Vision-language multimodal large models have a wide range of applications, covering fields such as computer vision, natural language processing, and human-computer interaction:
-
-- **Image Understanding**: Image classification, object detection, image captioning, etc.
-- **Video Analysis**: Video content understanding, video summarization, etc.
-- **Human-Computer Interaction**: Developing smarter virtual assistants, chatbots, etc.
-
-### Future Development Trends
-
-Despite remarkable progress, vision-language multimodal large models still face several challenges:
-
-- **Model Interpretability**: How to make the decision-making process of models more transparent and understandable.
-- **Data Bias**: How to prevent models from learning biases present in the data.
-- **Computational Resource Consumption**: How to reduce the computational costs of model training and inference.
-
-In the future, with continuous technological advancements and expanding application scenarios, vision-language multimodal large models will evolve toward being more general, intelligent, and efficient, bringing further breakthroughs and innovations to the field of artificial intelligence.
-
----
-
-**In summary, the emergence of vision-language multimodal large models marks a significant step in the transition of artificial intelligence from single-modal perception to multimodal cognition, laying a solid foundation for more general artificial intelligence.** As technology continues to advance and application scenarios expand, these models will play an increasingly important role in various fields, bringing greater convenience and value to human society.
