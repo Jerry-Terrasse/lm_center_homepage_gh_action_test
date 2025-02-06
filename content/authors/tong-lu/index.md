@@ -29,7 +29,7 @@ role: <a href='https://www.nju.edu.cn'>南京大学</a>
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 计算机科学与技术学院
+  - name: 计算机学院
     url: https://cs.nju.edu.cn
 
 # Social network links

@@ -29,7 +29,7 @@ role: <a href='https://www.nju.edu.cn'>Nanjing University</a>
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Department of Computer Science and Technology
+  - name: School of Computer Science
     url: https://cs.nju.edu.cn
 
 # Social network links
