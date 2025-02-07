@@ -32,7 +32,7 @@ sections:
       text: |
         南京大学与上海人工智能实验室等其他单位，共同研发了系列视频大模型、多模态大模型，在以视觉为中心的多模态理解任务上取得了世界领先性能。代表性成果如下：
 
-        #### 代表性成果1：书生多模态大模型-InternVL系列
+        ### 代表性成果1：书生多模态大模型-InternVL系列
         ![InternVL](./internvl.png)
 
         大型语言模型 (LLM) 的迅猛增长为多模态 AGI 系统开辟了无数可能性。然而，视觉和视觉语言基础模型（也是多模态 AGI 的关键要素）的进步却未能跟上 LLM 的步伐。在这项工作中，我们设计了一个大型视觉语言基础模型 (InternVL)，该模型将视觉基础模型扩展到 60 亿个参数，并逐步将其与 LLM 对齐，使用来自各种来源的网络规模图像文本数据。该模型可广泛应用于 32 个通用视觉语言基准测试，并在这些基准测试中取得最佳性能，包括视觉感知任务（例如图像级或像素级识别）、视觉语言任务（例如零样本图像/视频分类、零样本图像/视频文本检索），并与 LLM 链接以创建多模态对话系统。它具有强大的视觉功能，可以成为 ViT-22B 的良好替代品。
@@ -42,7 +42,7 @@ sections:
         Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, Guo Chen, Sen Xing, Muyan Zhong, Qinglong Zhang, Xizhou Zhu, Lewei Lu, Bin Li, Ping Luo, Tong Lu, Yu Qiao, Jifeng Dai, <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf" target="_blank">InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks</a>, in CVPR 2024.
 
 
-        #### 代表性成果2：视频基础表征模型-VideoMAE系列
+        ### 代表性成果2：视频基础表征模型-VideoMAE系列
         ![VideoMAE](./videomae.png)
 
         本成果提出了视频掩码自编码器 VideoMAE v1 & v2，成功训练出了首个十亿参数量的视频 Transformer 模型，突破了视频自监督表征学习的性能瓶颈。VideoMAE 系列工作引用超过了 1500 次，并且成为视频自监督学习领域的基准方法，被牛津大学、微软、谷歌、Meta 等单位进行了跟踪拓展研究，成为被开源社区 Hugging Face 收录的首个视频 Transformer 模型，全球调用下载量超过 320 万次，位列 Hugging Face 视频识别模型下载量榜首。
@@ -54,7 +54,7 @@ sections:
         - Limin Wang, Bingkun Huang, Zhiyu Zhao, Zhan Tong, Yinan He, Yi Wang, Yali Wang, Yu Qiao, <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VideoMAE_V2_Scaling_Video_Masked_Autoencoders_With_Dual_Masking_CVPR_2023_paper.pdf" target="_blank">VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking</a>, in CVPR 2023.
 
 
-        #### 代表性成果3：视频多模态大模型-VideoChat系列
+        ### 代表性成果3：视频多模态大模型-VideoChat系列
 
         ![VideoChat](./videochat.png)
 
@@ -70,7 +70,7 @@ sections:
 
         - Xinhao Li, Yi Wang, Jiashuo Yu, Xiangyu Zeng, Yuhan Zhu, Haian Huang, Jianfei Gao, Kunchang Li, Yinan He, Chenting Wang, Yu Qiao, Yali Wang, Limin Wang, <a href="https://arxiv.org/pdf/2501.00574" target="_blank">VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling</a>, arXiv: :2501.00574
 
-        #### 代表性成果4：书生视频大模型-InternVideo系列
+        ### 代表性成果4：书生视频大模型-InternVideo系列
 
         ![InternVideo](./internvideo.png)
 
