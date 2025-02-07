@@ -14,3 +14,10 @@ hr {
 #research-groups time {
   display: none; /* this time is only used for ordering */
 }
+
+@media (min-width: 1440px) {
+  .prose {
+    font-size:1.25rem;
+    line-height: 1.8
+  }
+}
