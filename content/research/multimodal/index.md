@@ -28,7 +28,7 @@ sections:
       columns: 4
   - block: markdown
     content:
-      title: 研究内容简介
+      title: 重要成果简介
       text: |
         南京大学与上海人工智能实验室等其他单位，共同研发了系列视频大模型、多模态大模型，在以视觉为中心的多模态理解任务上取得了世界领先性能。代表性成果如下：
 
