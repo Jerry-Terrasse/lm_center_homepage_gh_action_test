@@ -43,7 +43,8 @@ sections:
 
         #### 代表性成果2：视频基础表征模型-VideoMAE系列
         ![VideoMAE](./videomae.png)
-        本成果提出了视频掩码自编码器VideoMAE v1&v2，成功训练出了首个十亿参数量的视频Transformer模型，突破了视频自监督表征学习的性能瓶颈。VideoMAE系列工作引用超过1500次，已经成为视频自监督学习领域的基准方法，被牛津大学、微软、谷歌、Meta进行跟踪拓展研究，成为被开源社区Hugging Face收录的首个视频Transformer模型，全球调用下载超过320万次，位列Hugging Face视频识别模型榜下载量榜首。
+
+        本成果提出了视频掩码自编码器VideoMAE v1&v2，成功训练出了首个十亿参数量的视频Transformer模型，突破了视频自监督表征学习的性能瓶颈。VideoMAE系列工作引用超过了1500次，并且成为视频自监督学习领域的基准方法，被牛津大学、微软、谷歌、Meta等单位进行了跟踪拓展研究，成为被开源社区Hugging Face收录的首个视频Transformer模型，全球调用下载量超过320万次，位列Hugging Face视频识别模型下载量榜首。
 
         相关论文：
         - Zhan Tong, Yibing Song, Jue Wang, Limin Wang, <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/416f9cb3276121c42eebb86352a4354a-Paper-Conference.pdf" target="_blank">VideoMAE: Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training</a>, in NeurIPS 2022.
@@ -70,7 +71,7 @@ sections:
 
         ![InternVideo](./internvideo.png)
 
-        本成果提出了全球首个通用视频理解大模型InternVideo，在2022年发布视频基础表征模型版本InternVideo 1.0，在视频基础感知、视频时空解析、视频开发识别等重点任务取得了世界领先水平；在2024年发布了视频多模态理解模型版本InternVideo 2.0，在超过60种视频理解任务上面取得领先性能，包括识别检索、开放问答、高阶推理等等；在2025年发布了深层次时空理解版本InternVideo 2.5，在视频理解的跨度和粒度上实现了显著提升，其“记忆力”更是较前代提升了6倍。
+        本成果提出了全球首个通用视频理解大模型InternVideo：在2022年发布了视频基础表征版本InternVideo 1.0，在视频基础感知、视频时空解析、视频开发识别等重点任务取得了世界领先水平；在2024年发布了视频多模态理解版本InternVideo 2.0，在超过60种视频理解任务上面取得领先性能，包括识别检索、开放问答、高阶推理等等；在2025年发布了深层次视频时空理解版本InternVideo 2.5，在视频理解跨度和粒度上实现了显著性能提升，模型“记忆力”更是较前代提升了6倍。
 
         相关论文：
 
