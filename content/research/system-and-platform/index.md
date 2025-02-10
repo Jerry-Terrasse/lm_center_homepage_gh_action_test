@@ -39,10 +39,10 @@ sections:
 
         **相关论文：**
 
-        - Shen-Yi Zhao, Chang-Wei Shi, Yin-Peng Xie, Wu-Jun Li. *Stochastic Normalized Gradient Descent with Momentum for Large-Batch Training*. SCIENCE CHINA Information Sciences (SCIS), 2024 （arXiv 2020 ）.
-        - Hao Lin, Ke Wu, Jie Li, Jun Li, Wu-Jun Li. *UniAP: Unifying Inter- and Intra-Layer Automatic Parallelism by Mixed Integer Quadratic Programming*. arXiv 2023.
-        - Chang-Wei Shi, Yi-Rui Yang, Wu-Jun Li. *Ordered Momentum for Asynchronous SGD*. Advances in Neural Information Processing Systems (NeurIPS), 2024.
-        - Yi-Rui Yang, Chang-Wei Shi, Wu-Jun Li. *On the Effect of Batch Size in Byzantine-Robust Distributed Learning*. The Twelfth International Conference on Learning Representations (ICLR), 2024.
+        - Shen-Yi Zhao, Chang-Wei Shi, Yin-Peng Xie, Wu-Jun Li, <a href="https://arxiv.org/abs/2007.13985" target="_blank">Stochastic Normalized Gradient Descent with Momentum for Large-Batch Training</a>, in SCIENCE CHINA Information Sciences (SCIS) 2024.
+        - Hao Lin, Ke Wu, Jie Li, Jun Li, Wu-Jun Li, <a href="https://arxiv.org/abs/2307.16375" target="_blank">UniAP: Unifying Inter- and Intra-Layer Automatic Parallelism by Mixed Integer Quadratic Programming</a>, in arXiv 2023.
+        - Chang-Wei Shi, Yi-Rui Yang, Wu-Jun Li, <a href="https://arxiv.org/abs/2407.19234" target="_blank">Ordered Momentum for Asynchronous SGD</a>, in Advances in Neural Information Processing Systems (NeurIPS) 2024.
+        - Yi-Rui Yang, Chang-Wei Shi, Wu-Jun Li, <a href="https://openreview.net/forum?id=wriKDQqiOQ" target="_blank">On the Effect of Batch Size in Byzantine-Robust Distributed Learning</a>, in The Twelfth International Conference on Learning Representations (ICLR) 2024.
 
         ### 代表性成果2：基于持续学习的高效能训练算法
         ![InfLoRA](./inflora.png)
@@ -51,7 +51,7 @@ sections:
 
         **相关论文：**
 
-        - Yan-Shuo Liang, Wu-Jun Li. *InfLoRA: Interference-Free Low-Rank Adaptation for Continual Learning*. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.
+        - Yan-Shuo Liang, Wu-Jun Li, <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Liang_InfLoRA_Interference-Free_Low-Rank_Adaptation_for_Continual_Learning_CVPR_2024_paper.html" target="_blank">InfLoRA: Interference-Free Low-Rank Adaptation for Continual Learning</a>, in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024.
 
         ### 代表性成果3：高效能推理算法与平台
         ![PIPO Arch](./pipo_arch.png)
@@ -63,8 +63,8 @@ sections:
 
         **相关论文：**
 
-        - Wen-Pu Cai, Ming-Yang Li, Wu-Jun Li. *LCQ: Low-Rank Codebook based Quantization for Large Language Models*. arXiv 2024.
-        - Yangyijian Liu, Jun Li, Wu-Jun Li. *PIPO: Pipelined Offloading for Efficient Inference on Consumer Devices*. Submitted, 2025.
+        - Wen-Pu Cai, Ming-Yang Li, Wu-Jun Li, <a href="https://arxiv.org/abs/2405.20973" target="_blank">LCQ: Low-Rank Codebook based Quantization for Large Language Models</a>, in arXiv 2024.
+        - Yangyijian Liu, Jun Li, Wu-Jun Li, <a href="placeholder" target="_blank">PIPO: Pipelined Offloading for Efficient Inference on Consumer Devices</a>, Submitted, 2025.
 ---
 
 大模型系统与平台研究小组围绕基于大模型的系统构建、规模化训练/推理部署以及大模型应用开展研究，为大模型的高效训练、部署、以及领域知识融入等关键挑战开展研究；在大模型应用方面重点关注如自动定理证明(Automated Theorem Proving, ATP)等重推理(reasoning)任务的研究，有着深厚的积累。在本科教育方面，开设大模型开发课程，培养学生“从零到一手搓大模型”的能力。
