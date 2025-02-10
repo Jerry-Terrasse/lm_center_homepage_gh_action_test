@@ -21,7 +21,7 @@ sections:
       filters:
         folders:
           - authors
-        tag: mm_prof
+        tag: sys_prof
       count: 0
     design:
       view: people-grid
