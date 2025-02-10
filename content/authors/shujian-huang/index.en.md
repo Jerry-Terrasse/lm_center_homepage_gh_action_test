@@ -12,4 +12,9 @@ role: <a href='https://cs.nju.edu.cn'>Nanjing University&nbsp;&nbsp;School of Co
 organizations:
   - name: Natural Language Processing Research Group
     url: http://nlp.nju.edu.cn
+
+profiles:
+  - icon: at-symbol
+    url: 'mailto:huangsj@nju.edu.cn'
+    label: E-mail Me
 ---
