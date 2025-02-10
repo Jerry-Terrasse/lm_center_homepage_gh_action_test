@@ -14,3 +14,18 @@ hr {
 #research-groups time {
   display: none; /* this time is only used for ordering */
 }
+
+.bg-light {
+  background-color: white;
+}
+
+.dark\:bg-dark {
+  background-color: rgb(23 24 28/var(--tw-bg-opacity));
+  /* background-color: black; */
+  /* background-color: white; */
+}
+
+ol.pagefind-ui__results {
+  max-height: 40vh;
+  overflow-y: auto;
+}
