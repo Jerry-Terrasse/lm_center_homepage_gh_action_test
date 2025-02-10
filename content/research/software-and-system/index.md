@@ -1,5 +1,5 @@
 ---
-title: 大模型系统与平台研究小组
+title: 大模型软件与系统研究小组
 date: 1010-01-01 # to control the display order
 # author: test
 type: landing
@@ -13,7 +13,7 @@ sections:
     content:
       # title: 多模态大模型研究小组
       text: |
-        ## 大模型系统与平台研究小组
+        ## 大模型软件与系统研究小组
   - block: collection
     id: members
     content:
