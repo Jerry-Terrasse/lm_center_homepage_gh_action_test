@@ -35,13 +35,15 @@ sections:
 
         #### 相关论文：
 
-        Jiahuan Li, Yiqing Cao, Shujian Huang*, Jiajun Chen. Formality Favored: [Unraveling the Learning Preferences of Large Language Models on Data with Conflicting Knowledge](https://aclanthology.org/2024.emnlp-main.304.pdf). EMNLP2024.
+        <div>
+          Jiahuan Li, Yiqing Cao, Shujian Huang*, Jiajun Chen. <a href="https://arxiv.org/abs/2410.04784">Formality is Favored: Unraveling the Learning Preferences of Large Language Models on Data with Conflicting Knowledge</a>. EMNLP2024.
 
-        B站：https://www.bilibili.com/video/BV1khSKYSEKT
-
-        代码：https://github.com/CaoYiqingT/Formality-is-Favored
-
-        公众号：https://mp.weixin.qq.com/s/-T_J_QgqGZAPjcTRA938iA?token=36930520&lang=zh_CN
+          <div class="flex flex-wrap space-x-3">
+            <a href="https://www.bilibili.com/video/BV1khSKYSEKT" target="_blank"><img src="/images/bilibili.svg" class="inline-block" style="height: 1.5em"></img></a>
+            <a href="https://github.com/CaoYiqingT/Formality-is-Favored" target="_blank"><img src="/images/github.svg" class="inline-block" style="height: 1.5em"></img></a>
+            <a href="https://mp.weixin.qq.com/s/-T_J_QgqGZAPjcTRA938iA?token=36930520&lang=zh_CN" target="_blank"><img src="/images/wechat.svg" class="inline-block" style="height: 1.6em"></img></a>
+          </div>
+        </div>
 
         ### 代表性成果2：大语言模型的翻译能力评估和激发
 
@@ -51,19 +53,23 @@ sections:
 
         #### 相关论文：
 
-        Wenhao Zhu, Hongyi Liu, Qingxiu Dong, Jingjing Xu, Shujian Huang*, Lingpeng Kong, Jiajun Chen, Lei Li. Multilingual Machine Translation with Large Language Models: Empirical Results and Analysis. Findings of NAACL 2024. 
+        <div>
+          Wenhao Zhu, Hongyi Liu, Qingxiu Dong, Jingjing Xu, Shujian Huang*, Lingpeng Kong, Jiajun Chen, Lei Li. <a href="https://arxiv.org/abs/2304.04675"> Multilingual Machine Translation with Large Language Models: Empirical Results and Analysis. </a> Findings of NAACL 2024.
 
-        B站: https://www.bilibili.com/video/BV16h411j7nW
-
-        代码：https://github.com/NJUNLP/MMT-LLM
-
-        公众号：https://mp.weixin.qq.com/s/AR5Yo14AzeVQuAgPwBsgrg?token=36930520&lang=zh_CN
+          <div class="flex flex-wrap space-x-3">
+            <a href="https://www.bilibili.com/video/BV16h411j7nW" target="_blank"><img src="/images/bilibili.svg" class="inline-block" style="height: 1.5em"></img></a>
+            <a href="https://github.com/NJUNLP/MMT-LLM" target="_blank"><img src="/images/github.svg" class="inline-block" style="height: 1.5em"></img></a>
+            <a href="https://mp.weixin.qq.com/s/AR5Yo14AzeVQuAgPwBsgrg?token=36930520&lang=zh_CN" target="_blank"><img src="/images/wechat.svg" class="inline-block" style="height: 1.6em"></img></a>
+          </div>
+        </div>
         
-        Jiahuan Li, Hao Zhou, Shujian Huang*, Shanbo Cheng, Jiajun Chen.
-        Eliciting the Translation Ability of Large Language Models via Multilingual Finetuning with Translation Instructions.
-        TACL 2024.
+        <div>
+          Jiahuan Li, Hao Zhou, Shujian Huang*, Shanbo Cheng, Jiajun Chen. <a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00655/120833"> Eliciting the Translation Ability of Large Language Models via Multilingual Finetuning with Translation Instructions. </a> TACL 2024.
 
-        代码：https://github.com/NJUNLP/MFTI
+          <div class="flex flex-wrap space-x-3">
+            <a href="https://github.com/NJUNLP/MFTI" target="_blank"><img src="/images/github.svg" class="inline-block" style="height: 1.5em"></img></a>
+          </div>
+        </div>
 
         ### 代表性成果3：大语言模型能力的跨语言迁移
 
@@ -74,19 +80,24 @@ sections:
 
         #### 相关论文：
 
-        Wenhao Zhu, Shujian Huang*, Fei Yuan, Shuaijie She, Jiajun Chen, Alexandra Birch. Question Translation Training for Better Multilingual Reasoning. Findings of ACL 2024.
+        <div>
+          Wenhao Zhu, Shujian Huang*, Fei Yuan, Shuaijie She, Jiajun Chen, Alexandra Birch. <a href="https://arxiv.org/abs/2401.07817"> Question Translation Training for Better Multilingual Reasoning. </a> Findings of ACL 2024.
 
-        B站：https://www.bilibili.com/video/BV12E421w72W
-
-        代码：https://github.com/NJUNLP/QAlign
-
-        公众号：https://mp.weixin.qq.com/s/Z7qrtkpfyeDmbj0WKeBo_A?token=36930520&lang=zh_CN
+          <div class="flex flex-wrap space-x-3">
+            <a href="https://www.bilibili.com/video/BV12E421w72W" target="_blank"><img src="/images/bilibili.svg" class="inline-block" style="height: 1.5em"></img></a>
+            <a href="https://github.com/NJUNLP/QAlign" target="_blank"><img src="/images/github.svg" class="inline-block" style="height: 1.5em"></img></a>
+            <a href="https://mp.weixin.qq.com/s/Z7qrtkpfyeDmbj0WKeBo_A?token=36930520&lang=zh_CN" target="_blank"><img src="/images/wechat.svg" class="inline-block" style="height: 1.6em"></img></a>
+          </div>
+        </div>
         
-        Shuaijie She, Wei Zou, Shujian Huang*, Wenhao Zhu, Xiang Liu, Xiang Geng, Jiajun Chen. MAPO: Advancing Multilingual Reasoning through Multilingual Alignment-as-Preference Optimization. ACL 2024.
+        <div>
+          Shuaijie She, Wei Zou, Shujian Huang*, Wenhao Zhu, Xiang Liu, Xiang Geng, Jiajun Chen. <a href="https://arxiv.org/abs/2401.06838"> MAPO: Advancing Multilingual Reasoning through Multilingual Alignment-as-Preference Optimization. </a> ACL 2024.
 
-        B站： https://www.bilibili.com/video/BV1j7421Z77h
-
-        代码：https://github.com/NJUNLP/MAPO
+          <div class="flex flex-wrap space-x-3">
+            <a href="https://www.bilibili.com/video/BV1j7421Z77h" target="_blank"><img src="/images/bilibili.svg" class="inline-block" style="height: 1.5em"></img></a>
+            <a href="https://github.com/NJUNLP/MAPO" target="_blank"><img src="/images/github.svg" class="inline-block" style="height: 1.5em"></img></a>
+          </div>
+        </div>
 
 
         ### 代表性成果4：大语言模型知识和推理的跨语言传递
