@@ -12,20 +12,20 @@ sections:
   - block: hero
     content:
       title: 模型巨匠，智启未来！
-      primary_text: 南京大学计算机学院大模型研究中心
-      secondary_text: 研究中心开展大模型系统架构、学习算法和领域应用的创新研究，为通用人工智能（AGI）和超级智能（Super Intelligence）提供核心技术。主要研究方向包括面向大模型的芯片、网络、计算等系统架构、面向大模型的高效能机器学习算法、大模型知识增强学习算法以及视觉大模型、语言大模型、多模态大模型、科学大模型、具身大模型和智能体系统。
+      primary_text: 南京大学计算机学院大模型中心
+      secondary_text: 大模型中心开展大模型系统架构、学习算法和领域应用的创新研究，为通用人工智能（AGI）和超级智能（Super Intelligence）提供核心技术。主要研究方向包括面向大模型的芯片、网络、计算等系统架构、面向大模型的高效能机器学习算法、大模型知识增强学习算法以及视觉大模型、语言大模型、多模态大模型、科学大模型、具身大模型和智能体系统。
       primary_action:
-        text: 加入我们
+        text: 了解更多
         url: /research
-        icon: user-group
+        icon: ellipsis-horizontal-circle
       secondary_action:
-        text: 研究中心文章
+        text: 我们的文章
         url: /publication
       announcement:
-        text: "研究中心的 5 篇文章被 CVPR 2025 接收"
+        text: "中国科学院学部“大模型/AIGC的健康发展与赋能赋智”科学与技术前沿论坛在南京召开"
         link:
           text: "更多"
-          url: "/#news"
+          url: "/post/2024-01-16-healthy-development-and-empowerment-of-large-models-aigc"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -48,16 +48,6 @@ sections:
     design:
       view: article-grid
       columns: 3
-  # - block: markdown
-  #   content:
-  #     title: '📚 Our Vision'
-  #     subtitle: ''
-  #     text: |-
-  #       Human can integrate auditory sense, visual sense, and tactile sense in environment perception, and improve the abilities of understand and reforming environment by continuous learning and practice. Currently, computer has the primary auditory sense and visual sense, and its storage and processing abilities are constantly improved. However, computer is still inferior to human in environment perception, and the corresponding processing technology requires long-term development. Multimedia computing group (MCG) aims to study environment perception technology and use it in real applications. We hope to improve the perception ability and leverage the cognitive level of computer, and assist human to understand and reform the world.
-
-  #     # Environment perception research requires the integration of various techniques, including multimedia content classification and processing, machine learning, modeling and visualization, intelligent interaction and big data processing. Currently, our research mainly involves: stereo visual media processing, object retrieval, scene modeling and processing, vision navigation, visual media retargeting, big data parallel processing, and large scale data visualization.
-  #   design:
-  #     columns: '1'
   - block: collection
     id: news
     content:
@@ -65,8 +55,7 @@ sections:
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      # page_type: post
-      page_type: publication
+      page_type: post
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
@@ -88,6 +77,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+        min-h-screen: true
 
   - block: collection
     id: papers

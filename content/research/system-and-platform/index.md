@@ -13,7 +13,7 @@ sections:
     content:
       # title:
       text: |
-        ## 大模型系统与平台研究小组
+        ## 高效能机器学习算法与平台小组
   - block: collection
     id: members
     content:
