@@ -1,5 +1,5 @@
 ---
-title: 大模型系统与平台研究小组
+title: 高效能机器学习算法与平台小组
 date: 1010-01-01 # to control the display order
 # author: test
 type: landing
@@ -71,4 +71,4 @@ sections:
         - Yangyijian Liu, Jun Li, Wu-Jun Li, <a href="placeholder" target="_blank">PIPO: Pipelined Offloading for Efficient Inference on Consumer Devices</a>, Submitted, 2025.
 ---
 
-大模型系统与平台研究小组围绕基于大模型的系统构建、规模化训练/推理部署以及大模型应用开展研究，为大模型的高效训练、部署、以及领域知识融入等关键挑战开展研究；在大模型应用方面重点关注如自动定理证明(Automated Theorem Proving, ATP)等重推理(reasoning)任务的研究，有着深厚的积累。在本科教育方面，开设大模型开发课程，培养学生“从零到一手搓大模型”的能力。
+高效能机器学习算法与平台小组围绕基于大模型的系统构建、规模化训练/推理部署以及大模型应用开展研究，为大模型的高效训练、部署、以及领域知识融入等关键挑战开展研究；在大模型应用方面重点关注如自动定理证明(Automated Theorem Proving, ATP)等重推理(reasoning)任务的研究，有着深厚的积累。在本科教育方面，开设大模型开发课程，培养学生“从零到一手搓大模型”的能力。
