@@ -4,6 +4,10 @@ date: 1030-01-01 # to control the display order
 # author: test
 type: landing
 
+design:
+  # Section spacing
+  spacing: '1rem'
+
 sections:
   - block: collection
     id: members
