@@ -40,15 +40,6 @@ sections:
           filters:
             brightness: 0.5
   - block: collection
-    content:
-      title: 研究小组
-      filters:
-        folders:
-          - research
-    design:
-      view: article-grid
-      columns: 3
-  - block: collection
     id: news
     content:
       title: 新闻
@@ -78,7 +69,15 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
         min-h-screen: true
-
+  - block: collection
+    content:
+      title: 研究小组
+      filters:
+        folders:
+          - research
+    design:
+      view: article-grid
+      columns: 3
   - block: collection
     id: papers
     content:
