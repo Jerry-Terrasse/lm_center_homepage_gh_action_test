@@ -1,6 +1,6 @@
 ---
 title: Large Model Knowledge Enhancement Research Group
-date: 1050-01-01 # to control the display order
+date: 1015-01-01 # to control the display order
 type: landing
 
 design:

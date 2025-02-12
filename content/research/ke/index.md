@@ -1,6 +1,6 @@
 ---
 title: 大模型知识增强研究小组
-date: 1050-01-01 # to control the display order
+date: 1015-01-01 # to control the display order
 type: landing
 
 design:
