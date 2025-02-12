@@ -66,9 +66,6 @@ sections:
       # Choose a layout view
       view: date-title-summary
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
-        min-h-screen: true
   - block: collection
     content:
       title: 研究小组
