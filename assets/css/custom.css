@@ -29,3 +29,11 @@ ol.pagefind-ui__results {
   max-height: 40vh;
   overflow-y: auto;
 }
+
+.prose {
+  max-width: 100%;
+}
+
+/* .max-w-prose {
+  max-width: 100%;
+} */
