@@ -67,6 +67,7 @@ sections:
       view: date-title-summary
       # Reduce spacing
   - block: collection
+    id: research-groups
     content:
       title: 研究小组
       filters:
