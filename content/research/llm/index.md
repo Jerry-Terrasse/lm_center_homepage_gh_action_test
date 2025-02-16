@@ -47,7 +47,7 @@ sections:
 
         ### 代表性成果2：大语言模型的翻译能力评估和激发
 
-        <div class="flex justify-center"><img src="sec_2_figure_1.png" style="max-width: 500px;"/></div>
+        <div class="flex justify-center"><img src="sec_2_figure_1.png" style="max-width: 500px; width: 100%"/></div>
 
         该方面工作系统地评测了包括ChatGPT在内的一系列大语言模型在102种语言，202个以英文为核心的翻译方向上的多语言机器翻译能力，探究了使用大语言模型进行多语言机器翻译的优势与挑战。研究发现：即使是最强的大语言模型（ChatGPT），仍然在83.33%的翻译方向上落后于强大的有监督基线模型（NLLB）。经过进一步的分析实验，我们发现在机器翻译任务上，大语言模型展现出了一些新的工作模式。为后续大语言模型和机器翻译、多语言相关研究探索了方向。该工作两年内Google scholar被引293次。该研究还探索了基于多语言指令学习激发大语言模型翻译能力的可行性，并在能力激发的原理和泛化性等方面进行了探索。
 
@@ -126,8 +126,11 @@ sections:
 
         ### 代表性成果5：大语言模型的多语言预对齐
 
-        ![](sec_5_figure_1.png)
-        ![](sec_5_figure_2.png)
+        <div class="flex flex-wrap justify-center">
+          <img src="sec_5_figure_1.png" style="width: 100%; max-width: 450px; object-fit: contain;"/>
+          <img src="sec_5_figure_2.png" style="width: 100%; max-width: 450px; object-fit: contain;"/>
+        </div>
+
 
 
         大语言模型往往在以英语为中心的语料上进行训练，训练语料中其余语言数据只占很少的比例。尽管如此，现有的LLM仍然展现出了一定的多语言性能。这是因为LLM执行多语言任务的能力与模型多语言对齐能力（为平行文本生成相似的表示）正相关，而近来的研究表明，LLM可以自发形成一定程度的多语言对齐。然而，这种自发形成的对齐能力仍然相对较弱，这导致模型在跨语言知识检索和跨语言行为一致上仍然存在较大问题。该工作提出了预对齐（PreAlign）框架，通过将对齐建立的阶段提前到预训练之前，来更好地实现跨语言的迁移效果。为训练更加语言通用的大语言模型提供了一种可行方案。
