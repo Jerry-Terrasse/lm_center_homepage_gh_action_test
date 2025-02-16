@@ -3,7 +3,7 @@ main:
     url: /
     weight: 10
   - name: 新闻
-    url: /#news
+    url: /post
     weight: 11
   - name: 研究小组
     url: /research

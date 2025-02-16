@@ -3,7 +3,7 @@ main:
     url: /
     weight: 10
   - name: News
-    url: /#news
+    url: /post
     weight: 11
   - name: Research
     url: /research
