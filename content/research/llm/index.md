@@ -126,10 +126,8 @@ sections:
 
         ### 代表性成果5：大语言模型的多语言预对齐
 
-        <div class="flex flex-warp justify-between">
-          <img src="sec_5_figure_1.png" style="width: 450px; object-fit: contain;"/>
-          <img src="sec_5_figure_2.png" style="width: 450px; object-fit: contain;"/>
-        </div>
+        ![](sec_5_figure_1.png)
+        ![](sec_5_figure_2.png)
 
 
         大语言模型往往在以英语为中心的语料上进行训练，训练语料中其余语言数据只占很少的比例。尽管如此，现有的LLM仍然展现出了一定的多语言性能。这是因为LLM执行多语言任务的能力与模型多语言对齐能力（为平行文本生成相似的表示）正相关，而近来的研究表明，LLM可以自发形成一定程度的多语言对齐。然而，这种自发形成的对齐能力仍然相对较弱，这导致模型在跨语言知识检索和跨语言行为一致上仍然存在较大问题。该工作提出了预对齐（PreAlign）框架，通过将对齐建立的阶段提前到预训练之前，来更好地实现跨语言的迁移效果。为训练更加语言通用的大语言模型提供了一种可行方案。
