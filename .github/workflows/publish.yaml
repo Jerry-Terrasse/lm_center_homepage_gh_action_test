@@ -42,6 +42,8 @@ jobs:
         key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
         restore-keys: |
           ${{ runner.os }}-hugomod-
+    - run: |
+        sed -i 's/canonifyURLs: false/canonifyURLs: true/' ./config/_default/hugo.yaml
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v5

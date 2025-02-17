@@ -54,4 +54,4 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
-relativeURLs: true # Enable if baseURL is a subpath
+canonifyURLs: false # Enable if baseURL is a subpath (for Github Pages)
