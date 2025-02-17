@@ -67,5 +67,14 @@ jobs:
       uses: rossjrw/pr-preview-action@v1
       with:
         source-dir: ./public/
-        action: auto
+        action: deploy
+        token: ${{ secrets.PREVIEW_TOKEN }}
+  remove_when_closed:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Remove preview
+      uses: rossjrw/pr-preview-action@v1
+      with:
+        action: remove
         token: ${{ secrets.PREVIEW_TOKEN }}
