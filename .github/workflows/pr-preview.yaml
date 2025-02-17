@@ -1,0 +1,71 @@
+# .github/workflows/preview.yml
+name: Deploy PR previews
+
+env:
+  WC_HUGO_VERSION: '0.136.5'
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+permissions:
+  pull-requests: write
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  # Build website
+  build_and_deploy:
+    if: github.event.action != 'closed' # skip the build if this is a close event
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+          # Fetch history for Hugo's .GitInfo and .Lastmod
+        fetch-depth: 0
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: ${{ env.WC_HUGO_VERSION }}
+        extended: true
+    - uses: actions/cache@v3
+      with:
+        path: /tmp/hugo_cache_runner/
+        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+        restore-keys: |
+          ${{ runner.os }}-hugomod-
+    # - name: Setup Pages
+    #   id: pages
+    #   uses: actions/configure-pages@v5
+    - name: Build with Hugo
+      env:
+        HUGO_ENVIRONMENT: production
+      run: |
+        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        echo "Base URL: ${{ steps.pages.outputs.base_url }}"
+        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+    - name: Generate Pagefind search index
+      run: npx pagefind --site "public"
+    # - name: Upload artifact
+    #   uses: actions/upload-pages-artifact@v3
+    #   with:
+    #     path: ./public
+    # - name: Checkout
+    #   uses: actions/checkout@v4
+
+    # - name: Install and Build
+    #   if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+    #   run: |
+    #     npm install
+    #     npm run build
+
+    - name: Deploy preview
+      uses: rossjrw/pr-preview-action@v1
+      with:
+        source-dir: ./public/
+        action: auto
