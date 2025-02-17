@@ -69,3 +69,4 @@ jobs:
       with:
         source-dir: ./public/
         action: auto
+        token: ${{ secrets.PREVIEW_TOKEN }}
