@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo Academic CV Theme</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Hugo Academic CV Theme</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu7729264130191091259.png</url><title>Hugo Academic CV Theme</title><link>/</link></image><item><title>Example Talk</title><link>/event/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>/event/example/</guid><description>&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.&lt;/span>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Hugo Blox Builder&amp;rsquo;s &lt;a href="https://docs.hugoblox.com/reference/content-types/" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Further event details, including &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>书生 InternVideo2.5 开源，万帧长视频准确“大海捞针”，精细感知真实时空关系</title><link>/post/2025-02-11-internvideo-25-release/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>/post/2025-02-11-internvideo-25-release/</guid><description>&lt;blockquote>
+&lt;p>近日，上海人工智能实验室（上海AI实验室）联合南京大学、中科院深圳先进技术研究院共同开源视频多模态大模型书生InternVideo2.5。
+在视频理解领域，全新升级的InternVideo2.5取得时间跨度与细粒度的双维提升，“记忆力”较前代模型扩容6倍，具备万帧长视频中精准“大海捞针”能力，AI视频理解既能“短平快”，亦可“长深细”。
+让AI得以更准确“看懂”纷繁的真实世界，更为多领域应用注入新质生产力。书生InternVideo系列模型此前已应用于中央广播电视总台巴黎奥运会直播，准确定位运动员的得分瞬间及相关慢动作，显著提升电视节目编创效率。基于长视频理处理能力的增强，升级后的InternVideo2.5将为自动驾驶、监控安防、虚拟现实等应用提供更高效的AI技术支持。&lt;/p>
+&lt;/blockquote>
+&lt;p>开源链接：&lt;a>&lt;a href="https://github.com/OpenGVLab/InternVideo/tree/main/InternVideo2.5" target="_blank" rel="noopener">https://github.com/OpenGVLab/InternVideo/tree/main/InternVideo2.5&lt;/a>&lt;/a>
+&lt;br>论文链接：&lt;a>&lt;a href="https://arxiv.org/abs/2501.12386" target="_blank" rel="noopener">https://arxiv.org/abs/2501.12386&lt;/a>&lt;/a>
+&lt;br>Huggingface链接：&lt;a>&lt;a href="https://huggingface.co/OpenGVLab/InternVideo2_5_Chat_8B" target="_blank" rel="noopener">https://huggingface.co/OpenGVLab/InternVideo2_5_Chat_8B&lt;/a>&lt;/a>&lt;/p>
+&lt;video controls poster="/post/2025-02-11-internvideo-25-release/cover.jpg" >
+&lt;source src="/post/2025-02-11-internvideo-25-release/InternVideo2.5_demo.mp4" type="video/mp4">
+&lt;/video>
+&lt;h3 id="专注精细时空理解长视频高效感知">专注精细时空理解，长视频高效感知&lt;/h3>
+&lt;p>上海AI实验室持续布局视频多模态大模型（Video MLLM）技术探索，自2022年起，先后推出并开源通用视频基础模型书生InternVideo、视频理解大模型书生&lt;a href="https://mp.weixin.qq.com/s?__biz=Mzg5NDc0MTUxMA==&amp;mid=2247533491&amp;idx=1&amp;sn=cb9ac56e0e8aafa03f089d22305420bb">InternVideo2&lt;/a>及以对话为中心的视频理解新范式&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzNzIyNDg4MQ==&amp;mid=2247544884&amp;idx=1&amp;sn=34c6ea5e7a435a238f78177f95000a80&amp;token=230509976&amp;lang=zh_CN">VideoChat&lt;/a>。在视频基础视觉表征学习和多模态对话的技术积累上，全新升级InternVideo2.5专注于细微时空理解，将视觉感知和语言理解深度融合，实现了长视频理解能力突破。&lt;/p>
+&lt;p>&lt;strong>InternVideo2.5能力特征：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>超长视频处理: 万帧精确定位，视频处理长度较此前版本提升6倍（3000-10000帧）。&lt;/li>
+&lt;li>细粒度感知: 准确识别和定位视频中的物体、场景和动作，理解细微的时空关系。&lt;/li>
+&lt;li>多项视觉能力融合: 不仅能进行通用视频问答，还能完成目标跟踪、分割等专业视觉任务。&lt;/li>
+&lt;/ul>
+&lt;img src="figure.webp" width="100%" />
+&lt;span style="font-size: 0.8em; line-height: 0.2; color: rgb(136, 136, 136);">左图：InternVideo2.5与其它80亿参数开源模型在MVBench和VideoMME上的评测性能对比；右图：InternVideo2.5可准确对视频进行跟踪分析。&lt;/span>
+&lt;h3 id="lrc结合渐进训练破解长视频建模技术瓶颈">LRC结合渐进训练，破解长视频建模技术瓶颈&lt;/h3>
+&lt;p>针对长视频和精细化视觉任务，传统视频多模态大模型面临显著技术瓶颈，难以在超长视频中准确追踪目标物体，或在复杂场景下识别细微的时空关系。以“万帧大海捞针”任务为例，传统方法需耗费大量计算资源，且定位精度不足，导致视频分析效率低下，限制了该类大模型在工业级场景中的应用。
+为此，上海AI实验室联合团队基于自研的&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzNzIyNDg4MQ==&amp;mid=2247559641&amp;idx=2&amp;sn=f46a86df07b9ca5a0bdc13f30730e23f">书生·万象（InternVL2.5）&lt;/a>基座模型，提出长时丰富上下文建模（LRC）技术，为破解当前瓶颈提供了解题思路。&lt;/p>
+&lt;p>&lt;strong>长时丰富上下文建模技术 (LRC)两大核心模块：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>分层上下文压缩 (HiCo): 巧妙地利用长视频中视觉信息的冗余性，对视频内容进行分层压缩。实验结果显示，在HiCo的作用下，InternVideo2.5可在万帧视频中准确找到目标帧，在开源模型中综合领先。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>任务偏好优化 (TPO): TPO通过将来自各种细粒度视觉任务（例如目标跟踪、分割、时间定位等）的标注信息，转化为可微分的任务偏好，指导模型自学习，将InternVideo能力拓展至各类专业视觉任务。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>同时，联合团队以超过30万小时的视频语料，使用渐进式多阶段训练方案，对InternVideo2.5进行了预训练，保证其视频能力的获取。其中，训练语料涵盖视觉文本对齐数据、长视频数据和特定任务视觉数据类型，为模型学习提供丰富信息。延续书生·万象采用的渐进式多阶段训练方案，逐步提升模型的细粒度感知和时间理解能力：一阶段进行基础学习，实现任务识别指令调整和视频语言对齐训练；二阶段通过集成和训练特定任务组件以及视觉概念预训练，增强视觉理解能力；三阶段则在混合语料库上进行多任务训练和指令调整，优化所有模型组件。这一方案实现了模型“从小到大”、数据“从粗到精”的有效优化，使成本更低、性能更高。&lt;/p>
+&lt;p>&lt;a href="https://mp.weixin.qq.com/s/kId4bxMbbR4kT2Q_HXCpsg" target="_blank">查看原文&lt;/a>&lt;/p></description></item><item><title>Projects</title><link>/projects/</link><pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate><guid>/projects/</guid><description/></item><item><title>中国科学院学部“大模型/AIGC的健康发展与赋能赋智”科学与技术前沿论坛在南京召开</title><link>/post/2024-01-16-healthy-development-and-empowerment-of-large-models-aigc/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>/post/2024-01-16-healthy-development-and-empowerment-of-large-models-aigc/</guid><description>&lt;img src="image.png" width="100%" />
+&lt;p>中国科学院学部第155次科学与技术前沿论坛—“大模型／AIGC的健康发展与赋能赋智”于2024年1月6－7日在南京召开。本次论坛由中国科学院学部主办，中国科学院学部学术与出版工作委员会、中国科学院信息技术科学部常务委员会承办，南京大学、东南大学和《中国科学》杂志社协办，中国科学院院士吕建、黄如和中国工程院院士王坚共同担任论坛主席。中国科学院学部学术与出版工作委员会主任包信和院士出席论坛，中国科学院学部工作局周德进、教育部教师工作司任友群、东南大学黄如院士、江苏省科技厅徐光辉出席论坛开幕式并致辞。包信和、吕建、黄如、谭铁牛、鄂维南、徐宗本等6位中国科学院院士，高文、杨善林等2位中国工程院院士，以及来自中国科学院、南京大学、东南大学、香港科技大学、科大讯飞、华为、阿里、小米、美的、吉利汽车研究院等87所高校、科研院所和企业的近300位专家参加了本次论坛，超过半数为45岁以下青年科学家。&lt;/p>
+&lt;p>论坛分为主旨报告和专题报告两个环节，在主旨报告环节，谭铁牛院士介绍了生成式人工智能的发展态势，高文院士介绍了鹏城脑海预训练大模型底座与开源合作，杨善林院士介绍了AIGC及其科学基础，鄂维南院士介绍了深度学习的基本原理，徐宗本院士介绍了关于大模型的数理基础研究，英国皇家工程院院士、香港科技大学首席副校长郭毅可教授介绍了大模型的内涵科学问题，科大讯飞、华为、阿里的人工智能专家介绍了大模型的应用与创新实践。在专题报告环节，与会专家围绕“大模型／AIGC的发展前沿与协同创新”“大模型／AIGC助力科技发展”“大模型／AIGC助力实体经济”“大模型／AIGC助力教育变革”“大模型／AIGC与智能化基础软件”“大模型／AIGC与算力基础设施、及芯片技术”“大模型／AIGC安全可控、隐私保护与低成本部署”“大模型／AIGC的治理与管理”等8个专题进行了报告，报告结束后，与会专家学者还围绕专题进行圆桌提问交流。&lt;/p>
+&lt;p>经过两天的交流研讨，与会专家就大模型与人工智能发展的关键技术与挑战、应用场景与产业赋能赋智、法律道德风险等进行了前瞻研讨，形成了一些初步共识，论坛结束后将以简报、专报等形式发布论坛成果。&lt;/p>
+&lt;p>&lt;a href="http://ad.cas.cn/xbdt2022/202401/t20240116_5000694.html" target="_blank">查看原文&lt;/a>&lt;/p></description></item><item><title>Pandas</title><link>/project/pandas/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>/project/pandas/</guid><description>&lt;p>Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p></description></item><item><title>PyTorch</title><link>/project/pytorch/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>/project/pytorch/</guid><description>&lt;p>PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p></description></item><item><title>scikit-learn</title><link>/project/scikit/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>/project/scikit/</guid><description>&lt;p>scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p></description></item><item><title>Experience</title><link>/experience/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>/experience/</guid><description/></item><item><title>Learn JavaScript</title><link>/teaching/js/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>/teaching/js/</guid><description>&lt;p>&lt;a href="https://hugoblox.com" target="_blank" rel="noopener">Hugo Blox Builder&lt;/a> is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p>
+&lt;p>&lt;strong>Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong>&lt;/p>
+&lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p>
+&lt;h2 id="video">Video&lt;/h2>
+&lt;p>Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;strong>Youtube&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Bilibili&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>{{&amp;lt; bilibili id=&amp;quot;BV1WV4y1r7DF&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Video file&lt;/strong>&lt;/p>
+&lt;p>Videos may be added to a page by either placing them in your &lt;code>assets/media/&lt;/code> media library or in your &lt;a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener">page&amp;rsquo;s folder&lt;/a>, and then embedding them with the &lt;em>video&lt;/em> shortcode:&lt;/p>
+&lt;pre>&lt;code>{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;h2 id="podcast">Podcast&lt;/h2>
+&lt;p>You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em>audio&lt;/em> shortcode:&lt;/p>
+&lt;pre>&lt;code>{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;p>Try it out:&lt;/p>
+&lt;audio controls >
+&lt;source src="/teaching/js/ambient-piano.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;h2 id="test-students">Test students&lt;/h2>
+&lt;p>Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code>spoiler&lt;/code> shortcode:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">spoiler&lt;/span> &lt;span class="na">text&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;👉 Click to view the solution&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You found me!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">spoiler&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+&lt;details class="spoiler " id="spoiler-2">
+&lt;summary class="cursor-pointer">👉 Click to view the solution&lt;/summary>
+&lt;div class="rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2">
+You found me 🎉
+&lt;/div>
+&lt;/details>
+&lt;h2 id="math">Math&lt;/h2>
+&lt;p>Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code>math&lt;/code> option in your &lt;code>config/_default/params.yaml&lt;/code> file.&lt;/p>
+&lt;p>To render &lt;em>inline&lt;/em> or &lt;em>block&lt;/em> math, wrap your LaTeX math with &lt;code>{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code> or &lt;code>{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code>, respectively.&lt;/p>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">We wrap the LaTeX math in the Hugo Blox &lt;em>math&lt;/em> shortcode to prevent Hugo rendering our math as Markdown.&lt;/span>
+&lt;/div>
+&lt;p>Example &lt;strong>math block&lt;/strong>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; math &amp;gt;&lt;span class="nb">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gamma&lt;/span>&lt;span class="nb">_{n} &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\frac&lt;/span>&lt;span class="nb">{ &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> | &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n} &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">} &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb">^T &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">]&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> |}{&lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\|\nabla&lt;/span>&lt;span class="nb"> F&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb">{x}_{n}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb">{x}_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\|&lt;/span>&lt;span class="nb">^&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="nb">}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="s">$$&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; /math &amp;gt;&lt;span class="nb">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+&lt;p>Example &lt;strong>inline math&lt;/strong> &lt;code>{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code> renders as $\nabla F(\mathbf{x}_{n})$
+.&lt;/p>
+&lt;p>Example &lt;strong>multi-line math&lt;/strong> using the math linebreak (&lt;code>\\&lt;/code>):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; math &amp;gt;&lt;span class="nb">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">f&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nb">k;p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\begin&lt;/span>&lt;span class="nb">{cases}p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">} &amp;amp; &lt;/span>&lt;span class="nv">\text&lt;/span>&lt;span class="nb">{if }k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">, &lt;/span>&lt;span class="nv">\\&lt;/span>&lt;span class="nb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb">p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">} &amp;amp; &lt;/span>&lt;span class="nv">\text&lt;/span>&lt;span class="nb">{if }k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">.&lt;/span>&lt;span class="nv">\end&lt;/span>&lt;span class="nb">{cases}&lt;/span>&lt;span class="s">$$&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; /math &amp;gt;&lt;span class="nb">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+$$
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
+$$
+&lt;h2 id="code">Code&lt;/h2>
+&lt;p>Hugo Blox Builder utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code>config/_default/params.yaml&lt;/code> file.&lt;/p>
+&lt;pre>&lt;code>```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code>&lt;/pre>
+&lt;p>renders as&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">pd&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">read_csv&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;data.csv&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">head&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="inline-images">Inline Images&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&amp;lt;&lt;/span> &lt;span class="nx">icon&lt;/span> &lt;span class="nx">name&lt;/span>&lt;span class="p">=&lt;/span>&lt;span class="s">&amp;#34;python&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;}}&lt;/span> &lt;span class="nx">Python&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+&lt;p>
+&lt;span class="inline-block pr-1">
+&lt;svg style="height: 1em; transform: translateY(0.1em);" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor">&lt;path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/>&lt;/svg>
+&lt;/span> Python&lt;/p>
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h2></description></item><item><title>Learn Python</title><link>/teaching/python/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>/teaching/python/</guid><description>&lt;p>&lt;a href="https://hugoblox.com" target="_blank" rel="noopener">Hugo Blox Builder&lt;/a> is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p>
+&lt;p>&lt;strong>Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong>&lt;/p>
+&lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p>
+&lt;h2 id="video">Video&lt;/h2>
+&lt;p>Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;strong>Youtube&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Bilibili&lt;/strong>:&lt;/p>
+&lt;pre>&lt;code>{{&amp;lt; bilibili id=&amp;quot;BV1WV4y1r7DF&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;p>&lt;strong>Video file&lt;/strong>&lt;/p>
+&lt;p>Videos may be added to a page by either placing them in your &lt;code>assets/media/&lt;/code> media library or in your &lt;a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener">page&amp;rsquo;s folder&lt;/a>, and then embedding them with the &lt;em>video&lt;/em> shortcode:&lt;/p>
+&lt;pre>&lt;code>{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;h2 id="podcast">Podcast&lt;/h2>
+&lt;p>You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em>audio&lt;/em> shortcode:&lt;/p>
+&lt;pre>&lt;code>{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;p>Try it out:&lt;/p>
+&lt;audio controls >
+&lt;source src="/teaching/python/ambient-piano.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;h2 id="test-students">Test students&lt;/h2>
+&lt;p>Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code>spoiler&lt;/code> shortcode:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">spoiler&lt;/span> &lt;span class="na">text&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;👉 Click to view the solution&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You found me!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">spoiler&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+&lt;details class="spoiler " id="spoiler-2">
+&lt;summary class="cursor-pointer">👉 Click to view the solution&lt;/summary>
+&lt;div class="rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2">
+You found me 🎉
+&lt;/div>
+&lt;/details>
+&lt;h2 id="math">Math&lt;/h2>
+&lt;p>Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code>math&lt;/code> option in your &lt;code>config/_default/params.yaml&lt;/code> file.&lt;/p>
+&lt;p>To render &lt;em>inline&lt;/em> or &lt;em>block&lt;/em> math, wrap your LaTeX math with &lt;code>{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code> or &lt;code>{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code>, respectively.&lt;/p>
+&lt;div class="flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900">
+&lt;span class="pr-3 pt-1 text-primary-600 dark:text-primary-300">
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z"/>&lt;/svg>
+&lt;/span>
+&lt;span class="dark:text-neutral-300">We wrap the LaTeX math in the Hugo Blox &lt;em>math&lt;/em> shortcode to prevent Hugo rendering our math as Markdown.&lt;/span>
+&lt;/div>
+&lt;p>Example &lt;strong>math block&lt;/strong>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; math &amp;gt;&lt;span class="nb">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gamma&lt;/span>&lt;span class="nb">_{n} &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\frac&lt;/span>&lt;span class="nb">{ &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> | &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n} &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">} &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb">^T &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">]&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> |}{&lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\|\nabla&lt;/span>&lt;span class="nb"> F&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb">{x}_{n}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb">{x}_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\|&lt;/span>&lt;span class="nb">^&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="nb">}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="s">$$&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; /math &amp;gt;&lt;span class="nb">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+&lt;p>Example &lt;strong>inline math&lt;/strong> &lt;code>{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code> renders as $\nabla F(\mathbf{x}_{n})$
+.&lt;/p>
+&lt;p>Example &lt;strong>multi-line math&lt;/strong> using the math linebreak (&lt;code>\\&lt;/code>):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; math &amp;gt;&lt;span class="nb">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">f&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nb">k;p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\begin&lt;/span>&lt;span class="nb">{cases}p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">} &amp;amp; &lt;/span>&lt;span class="nv">\text&lt;/span>&lt;span class="nb">{if }k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">, &lt;/span>&lt;span class="nv">\\&lt;/span>&lt;span class="nb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb">p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">} &amp;amp; &lt;/span>&lt;span class="nv">\text&lt;/span>&lt;span class="nb">{if }k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">.&lt;/span>&lt;span class="nv">\end&lt;/span>&lt;span class="nb">{cases}&lt;/span>&lt;span class="s">$$&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{{&lt;/span>&amp;lt; /math &amp;gt;&lt;span class="nb">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+$$
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
+$$
+&lt;h2 id="code">Code&lt;/h2>
+&lt;p>Hugo Blox Builder utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code>config/_default/params.yaml&lt;/code> file.&lt;/p>
+&lt;pre>&lt;code>```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code>&lt;/pre>
+&lt;p>renders as&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">pd&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">read_csv&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;data.csv&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">head&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="inline-images">Inline Images&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{{&amp;lt;&lt;/span> &lt;span class="nx">icon&lt;/span> &lt;span class="nx">name&lt;/span>&lt;span class="p">=&lt;/span>&lt;span class="s">&amp;#34;python&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;}}&lt;/span> &lt;span class="nx">Python&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
+&lt;p>
+&lt;span class="inline-block pr-1">
+&lt;svg style="height: 1em; transform: translateY(0.1em);" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor">&lt;path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"/>&lt;/svg>
+&lt;/span> Python&lt;/p>
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h2></description></item><item><title>大语言模型研究小组</title><link>/research/llm/</link><pubDate>Fri, 01 Jan 1030 00:00:00 +0000</pubDate><guid>/research/llm/</guid><description>&lt;h2 id="大语言模型人工智能语言理解与生成的新纪元">大语言模型：人工智能语言理解与生成的新纪元&lt;/h2>
+&lt;p>&lt;strong>大语言模型（Large Language Models, LLMs）&lt;/strong> 是近年来人工智能领域最具突破性的技术之一。它们通过海量数据训练，能够理解和生成自然语言，在文本生成、翻译、问答等任务中展现出接近人类水平的能力，开启了人工智能语言理解与生成的新纪元。&lt;/p>
+&lt;h3 id="核心技术突破">核心技术突破&lt;/h3>
+&lt;p>大语言模型的成功得益于以下关键技术的突破：&lt;/p>
+&lt;p>&lt;strong>总而言之，大语言模型正在深刻改变我们与机器的交互方式，并为各行各业带来前所未有的机遇。&lt;/strong> 随着技术的不断进步和应用场景的不断拓展，它们将继续推动人工智能语言理解与生成领域的发展，为人类社会创造更多价值。&lt;/p></description></item><item><title>多模态大模型研究小组</title><link>/research/multimodal/</link><pubDate>Sat, 01 Jan 1020 00:00:00 +0000</pubDate><guid>/research/multimodal/</guid><description>&lt;p>多模态大模型研究小组致力于推动多模态大模型的研究与应用，探索多模态信息融合、交互与推理等关键技术，推动多模态大模型在视觉、语音、文本等多模态数据上的应用，为多模态智能技术的发展提供技术支撑。&lt;/p></description></item><item><title>大模型知识增强研究小组</title><link>/research/ke/</link><pubDate>Sun, 01 Jan 1015 00:00:00 +0000</pubDate><guid>/research/ke/</guid><description>&lt;p>大模型知识增强研究小组长期从事大模型知识增强、代码生成等相关方向研究。在大模型时代，主要关注模型的知识增强、推理和多语言能力等方面的提升，开展了基座模型知识增强、代码大模型等研究。&lt;/p></description></item><item><title>大模型机器学习算法与平台小组</title><link>/research/system-and-platform/</link><pubDate>Mon, 01 Jan 1010 00:00:00 +0000</pubDate><guid>/research/system-and-platform/</guid><description>&lt;p>大模型机器学习算法与平台小组围绕基于大模型的系统构建、规模化训练/推理部署以及大模型应用开展研究，为大模型的高效训练、部署、以及领域知识融入等关键挑战开展研究；在大模型应用方面重点关注如自动定理证明(Automated Theorem Proving, ATP)等重推理(reasoning)任务的研究，有着深厚的积累。在本科教育方面，开设大模型开发课程，培养学生“从零到一手搓大模型”的能力。&lt;/p></description></item><item><title>大模型软件与系统研究小组</title><link>/research/software-and-system/</link><pubDate>Mon, 01 Jan 1010 00:00:00 +0000</pubDate><guid>/research/software-and-system/</guid><description>&lt;p>多模态大模型研究小组致力于推动多模态大模型的研究与应用，探索多模态信息融合、交互与推理等关键技术，推动多模态大模型在视觉、语音、文本等多模态数据上的应用，为多模态智能技术的发展提供技术支撑。&lt;/p></description></item><item><title>胡伟</title><link>/author/%E8%83%A1%E4%BC%9F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/%E8%83%A1%E4%BC%9F/</guid><description/></item><item><title>黄书剑</title><link>/author/%E9%BB%84%E4%B9%A6%E5%89%91/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/%E9%BB%84%E4%B9%A6%E5%89%91/</guid><description/></item><item><title>李武军</title><link>/author/%E6%9D%8E%E6%AD%A6%E5%86%9B/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/%E6%9D%8E%E6%AD%A6%E5%86%9B/</guid><description/></item><item><title>路通</title><link>/author/%E8%B7%AF%E9%80%9A/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/%E8%B7%AF%E9%80%9A/</guid><description/></item><item><title>王利民</title><link>/author/%E7%8E%8B%E5%88%A9%E6%B0%91/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/%E7%8E%8B%E5%88%A9%E6%B0%91/</guid><description/></item><item><title>徐经伟</title><link>/author/%E5%BE%90%E7%BB%8F%E4%BC%9F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/%E5%BE%90%E7%BB%8F%E4%BC%9F/</guid><description/></item><item><title>姚远</title><link>/author/%E5%A7%9A%E8%BF%9C/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/author/%E5%A7%9A%E8%BF%9C/</guid><description/></item></channel></rss>

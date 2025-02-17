@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>新闻 | Hugo Academic CV Theme</title><link>/post/</link><atom:link href="/post/index.xml" rel="self" type="application/rss+xml"/><description>新闻</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh</language><lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><image><url>/media/icon_hu7729264130191091259.png</url><title>新闻</title><link>/post/</link></image><item><title>书生 InternVideo2.5 开源，万帧长视频准确“大海捞针”，精细感知真实时空关系</title><link>/post/2025-02-11-internvideo-25-release/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>/post/2025-02-11-internvideo-25-release/</guid><description>&lt;blockquote>
+&lt;p>近日，上海人工智能实验室（上海AI实验室）联合南京大学、中科院深圳先进技术研究院共同开源视频多模态大模型书生InternVideo2.5。
+在视频理解领域，全新升级的InternVideo2.5取得时间跨度与细粒度的双维提升，“记忆力”较前代模型扩容6倍，具备万帧长视频中精准“大海捞针”能力，AI视频理解既能“短平快”，亦可“长深细”。
+让AI得以更准确“看懂”纷繁的真实世界，更为多领域应用注入新质生产力。书生InternVideo系列模型此前已应用于中央广播电视总台巴黎奥运会直播，准确定位运动员的得分瞬间及相关慢动作，显著提升电视节目编创效率。基于长视频理处理能力的增强，升级后的InternVideo2.5将为自动驾驶、监控安防、虚拟现实等应用提供更高效的AI技术支持。&lt;/p>
+&lt;/blockquote>
+&lt;p>开源链接：&lt;a>&lt;a href="https://github.com/OpenGVLab/InternVideo/tree/main/InternVideo2.5" target="_blank" rel="noopener">https://github.com/OpenGVLab/InternVideo/tree/main/InternVideo2.5&lt;/a>&lt;/a>
+&lt;br>论文链接：&lt;a>&lt;a href="https://arxiv.org/abs/2501.12386" target="_blank" rel="noopener">https://arxiv.org/abs/2501.12386&lt;/a>&lt;/a>
+&lt;br>Huggingface链接：&lt;a>&lt;a href="https://huggingface.co/OpenGVLab/InternVideo2_5_Chat_8B" target="_blank" rel="noopener">https://huggingface.co/OpenGVLab/InternVideo2_5_Chat_8B&lt;/a>&lt;/a>&lt;/p>
+&lt;video controls poster="/post/2025-02-11-internvideo-25-release/cover.jpg" >
+&lt;source src="/post/2025-02-11-internvideo-25-release/InternVideo2.5_demo.mp4" type="video/mp4">
+&lt;/video>
+&lt;h3 id="专注精细时空理解长视频高效感知">专注精细时空理解，长视频高效感知&lt;/h3>
+&lt;p>上海AI实验室持续布局视频多模态大模型（Video MLLM）技术探索，自2022年起，先后推出并开源通用视频基础模型书生InternVideo、视频理解大模型书生&lt;a href="https://mp.weixin.qq.com/s?__biz=Mzg5NDc0MTUxMA==&amp;mid=2247533491&amp;idx=1&amp;sn=cb9ac56e0e8aafa03f089d22305420bb">InternVideo2&lt;/a>及以对话为中心的视频理解新范式&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzNzIyNDg4MQ==&amp;mid=2247544884&amp;idx=1&amp;sn=34c6ea5e7a435a238f78177f95000a80&amp;token=230509976&amp;lang=zh_CN">VideoChat&lt;/a>。在视频基础视觉表征学习和多模态对话的技术积累上，全新升级InternVideo2.5专注于细微时空理解，将视觉感知和语言理解深度融合，实现了长视频理解能力突破。&lt;/p>
+&lt;p>&lt;strong>InternVideo2.5能力特征：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>超长视频处理: 万帧精确定位，视频处理长度较此前版本提升6倍（3000-10000帧）。&lt;/li>
+&lt;li>细粒度感知: 准确识别和定位视频中的物体、场景和动作，理解细微的时空关系。&lt;/li>
+&lt;li>多项视觉能力融合: 不仅能进行通用视频问答，还能完成目标跟踪、分割等专业视觉任务。&lt;/li>
+&lt;/ul>
+&lt;img src="figure.webp" width="100%" />
+&lt;span style="font-size: 0.8em; line-height: 0.2; color: rgb(136, 136, 136);">左图：InternVideo2.5与其它80亿参数开源模型在MVBench和VideoMME上的评测性能对比；右图：InternVideo2.5可准确对视频进行跟踪分析。&lt;/span>
+&lt;h3 id="lrc结合渐进训练破解长视频建模技术瓶颈">LRC结合渐进训练，破解长视频建模技术瓶颈&lt;/h3>
+&lt;p>针对长视频和精细化视觉任务，传统视频多模态大模型面临显著技术瓶颈，难以在超长视频中准确追踪目标物体，或在复杂场景下识别细微的时空关系。以“万帧大海捞针”任务为例，传统方法需耗费大量计算资源，且定位精度不足，导致视频分析效率低下，限制了该类大模型在工业级场景中的应用。
+为此，上海AI实验室联合团队基于自研的&lt;a href="https://mp.weixin.qq.com/s?__biz=MzkzNzIyNDg4MQ==&amp;mid=2247559641&amp;idx=2&amp;sn=f46a86df07b9ca5a0bdc13f30730e23f">书生·万象（InternVL2.5）&lt;/a>基座模型，提出长时丰富上下文建模（LRC）技术，为破解当前瓶颈提供了解题思路。&lt;/p>
+&lt;p>&lt;strong>长时丰富上下文建模技术 (LRC)两大核心模块：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>分层上下文压缩 (HiCo): 巧妙地利用长视频中视觉信息的冗余性，对视频内容进行分层压缩。实验结果显示，在HiCo的作用下，InternVideo2.5可在万帧视频中准确找到目标帧，在开源模型中综合领先。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>任务偏好优化 (TPO): TPO通过将来自各种细粒度视觉任务（例如目标跟踪、分割、时间定位等）的标注信息，转化为可微分的任务偏好，指导模型自学习，将InternVideo能力拓展至各类专业视觉任务。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>同时，联合团队以超过30万小时的视频语料，使用渐进式多阶段训练方案，对InternVideo2.5进行了预训练，保证其视频能力的获取。其中，训练语料涵盖视觉文本对齐数据、长视频数据和特定任务视觉数据类型，为模型学习提供丰富信息。延续书生·万象采用的渐进式多阶段训练方案，逐步提升模型的细粒度感知和时间理解能力：一阶段进行基础学习，实现任务识别指令调整和视频语言对齐训练；二阶段通过集成和训练特定任务组件以及视觉概念预训练，增强视觉理解能力；三阶段则在混合语料库上进行多任务训练和指令调整，优化所有模型组件。这一方案实现了模型“从小到大”、数据“从粗到精”的有效优化，使成本更低、性能更高。&lt;/p>
+&lt;p>&lt;a href="https://mp.weixin.qq.com/s/kId4bxMbbR4kT2Q_HXCpsg" target="_blank">查看原文&lt;/a>&lt;/p></description></item><item><title>中国科学院学部“大模型/AIGC的健康发展与赋能赋智”科学与技术前沿论坛在南京召开</title><link>/post/2024-01-16-healthy-development-and-empowerment-of-large-models-aigc/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>/post/2024-01-16-healthy-development-and-empowerment-of-large-models-aigc/</guid><description>&lt;img src="image.png" width="100%" />
+&lt;p>中国科学院学部第155次科学与技术前沿论坛—“大模型／AIGC的健康发展与赋能赋智”于2024年1月6－7日在南京召开。本次论坛由中国科学院学部主办，中国科学院学部学术与出版工作委员会、中国科学院信息技术科学部常务委员会承办，南京大学、东南大学和《中国科学》杂志社协办，中国科学院院士吕建、黄如和中国工程院院士王坚共同担任论坛主席。中国科学院学部学术与出版工作委员会主任包信和院士出席论坛，中国科学院学部工作局周德进、教育部教师工作司任友群、东南大学黄如院士、江苏省科技厅徐光辉出席论坛开幕式并致辞。包信和、吕建、黄如、谭铁牛、鄂维南、徐宗本等6位中国科学院院士，高文、杨善林等2位中国工程院院士，以及来自中国科学院、南京大学、东南大学、香港科技大学、科大讯飞、华为、阿里、小米、美的、吉利汽车研究院等87所高校、科研院所和企业的近300位专家参加了本次论坛，超过半数为45岁以下青年科学家。&lt;/p>
+&lt;p>论坛分为主旨报告和专题报告两个环节，在主旨报告环节，谭铁牛院士介绍了生成式人工智能的发展态势，高文院士介绍了鹏城脑海预训练大模型底座与开源合作，杨善林院士介绍了AIGC及其科学基础，鄂维南院士介绍了深度学习的基本原理，徐宗本院士介绍了关于大模型的数理基础研究，英国皇家工程院院士、香港科技大学首席副校长郭毅可教授介绍了大模型的内涵科学问题，科大讯飞、华为、阿里的人工智能专家介绍了大模型的应用与创新实践。在专题报告环节，与会专家围绕“大模型／AIGC的发展前沿与协同创新”“大模型／AIGC助力科技发展”“大模型／AIGC助力实体经济”“大模型／AIGC助力教育变革”“大模型／AIGC与智能化基础软件”“大模型／AIGC与算力基础设施、及芯片技术”“大模型／AIGC安全可控、隐私保护与低成本部署”“大模型／AIGC的治理与管理”等8个专题进行了报告，报告结束后，与会专家学者还围绕专题进行圆桌提问交流。&lt;/p>
+&lt;p>经过两天的交流研讨，与会专家就大模型与人工智能发展的关键技术与挑战、应用场景与产业赋能赋智、法律道德风险等进行了前瞻研讨，形成了一些初步共识，论坛结束后将以简报、专报等形式发布论坛成果。&lt;/p>
+&lt;p>&lt;a href="http://ad.cas.cn/xbdt2022/202401/t20240116_5000694.html" target="_blank">查看原文&lt;/a>&lt;/p></description></item></channel></rss>
