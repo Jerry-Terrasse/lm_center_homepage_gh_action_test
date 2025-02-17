@@ -16,7 +16,7 @@ concurrency: preview-${{ github.ref }}
 
 jobs:
   # Build website
-  build:
+  build_and_deploy:
     if: github.event.action != 'closed' # skip the build if this is a close event
     runs-on: ubuntu-latest
     steps:
@@ -52,20 +52,17 @@ jobs:
     #   uses: actions/upload-pages-artifact@v3
     #   with:
     #     path: ./public
-  deploy-preview:
-    runs-on: ubuntu-latest
-    steps:
-      # - name: Checkout
-      #   uses: actions/checkout@v4
+    # - name: Checkout
+    #   uses: actions/checkout@v4
 
-      # - name: Install and Build
-      #   if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
-      #   run: |
-      #     npm install
-      #     npm run build
+    # - name: Install and Build
+    #   if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+    #   run: |
+    #     npm install
+    #     npm run build
 
-      - name: Deploy preview
-        uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: ./public/
-          action: auto
+    - name: Deploy preview
+      uses: rossjrw/pr-preview-action@v1
+      with:
+        source-dir: ./public/
+        action: auto
