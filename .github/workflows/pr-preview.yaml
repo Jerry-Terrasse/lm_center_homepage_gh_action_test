@@ -47,8 +47,7 @@ jobs:
         HUGO_ENVIRONMENT: production
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        echo "Base URL: ${{ steps.pages.outputs.base_url }}"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        hugo --minify --baseURL "${{ secrets.PREVIEW_BASE_URL }}/pr-${{ github.event.number }}/"
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
     # - name: Upload artifact
